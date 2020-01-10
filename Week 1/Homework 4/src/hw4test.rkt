@@ -5,7 +5,7 @@
 
 ;; Be sure to put your homework file in the same folder as this test file.
 ;; Uncomment the line below and change HOMEWORK_FILE to the name of your homework file.
-;;(require "HOMEWORK_FILE")
+(require "hw4.rkt")
 
 (require rackunit)
 
@@ -16,6 +16,10 @@
 (define tests
   (test-suite
    "Sample tests for Assignment 4"
+
+;; Note: The modified test file used for me during this course session was lost forever(?).
+;; However, I guess that only difference between this file and the lost one was a comment line,
+;; saying something like this: ;...not test(check?) ??? itself
 
    ; sequence test
    (check-equal? (sequence 0 5 1) (list 0 1 2 3 4 5) "Sequence test")
